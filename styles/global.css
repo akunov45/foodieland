@@ -11,6 +11,7 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
 /* font-family */
 /* global styles */
 /* header css */
@@ -55,4 +56,21 @@ header {
 .logo h2 span {
   color: red;
 }
+
 /* header css end */
+
+/* global styles */
+.common-btn {
+  border-radius: 16px;
+  border: none;
+  padding: 21px 27px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.common-title {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
