@@ -109,3 +109,40 @@ section.categories {
 }
 
 .category-card p {}
+
+/* recipes css */
+.recipes {
+  padding-top: 183px;
+  text-align: center;
+}
+
+.recipes .common-title {
+  margin-bottom: 24px;
+}
+
+.recipes .common-p {
+  width: 690px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+
+.recipes-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.r-card {
+  max-width: 400px;
+  border-radius: 30px;
+  height: 434px;
+  border: 1px solid black;
+  padding: 16px 16px 32px;
+}
+
+.r-card img {
+  width: 100%;
+}
+
+.card-bottom {}
+
+.card-bottom h3 {}
