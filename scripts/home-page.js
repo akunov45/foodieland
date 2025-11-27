@@ -9,6 +9,22 @@ const categories = [
     image: "../images/vegan.png",
     name: "Vegan"
   },
+  {
+    image: "../images/meat.png",
+    name: "Meat"
+  },
+  {
+    image: "../images/dessert.png",
+    name: "Dessert"
+  },
+  {
+    image: "../images/lunch.png",
+    name: "Lunch"
+  },
+  {
+    image: "../images/chocolate.png",
+    name: "Chocolate"
+  }
 ]
 //  DOM
 const categoriesBottom = document.querySelector(".categories-bottom");

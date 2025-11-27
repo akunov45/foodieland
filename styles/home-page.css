@@ -1,3 +1,78 @@
+.home1 {
+  display: flex;
+  padding-top: 40px;
+}
+
+.home1-left {
+  /* display: inline-block; */
+  font-family: "inner", sans-serif;
+  background-color: #E7FAFE;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 620px;
+}
+
+.home1-right img {
+  width: 660px;
+  height: 640px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: block;
+}
+
+.home1-left h1 {
+  line-height: 100%;
+  width: 600px;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.home1-left p {
+  color: #00000099;
+  width: 520px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.list-homeleft {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  gap: 13px;
+  padding: 11px 20px 10px 20px;
+  margin-bottom: 32px;
+}
+
+.profile-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-btns {
+  margin-bottom: 104px;
+}
+
+.profile-john {
+  display: flex;
+  align-items: center;
+  width: 165px;
+}
+
+button.btn-black {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+  color: white;
+}
+
 .btn-sky-blue {
   background-color: #E7FAFE;
   font-size: 16px;
